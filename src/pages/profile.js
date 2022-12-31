@@ -11,7 +11,7 @@ export default function Profile(){
     //get target profile user
     const [user, setUser] = useState(null)
     const history = useHistory()
-
+ 
     //get target user details, redirect to not found if user not found
     useEffect(() => {
         async function checkUserExists(){
